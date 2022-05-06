@@ -22,7 +22,7 @@ jobs:
           node-version: 14
           cache: 'npm'
           cache-dependency-path: ./api/package-log.json
-      - name: install
+      - name: installs
         shell: bash
         run: npm ci
       - name: run unit test
